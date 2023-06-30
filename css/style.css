@@ -1,0 +1,74 @@
+
+body{
+    background-image: linear-gradient(to bottom right, red 25%, blue 50%,orange );
+}
+
+.l_tbdr{
+    border:1px dashed #000;
+}
+.l_mysection{
+    transform: scale(0.9,0.9);
+    border:10px solid #0DCAF0 !important;
+}
+.l_32{
+    height : 180px !important;
+}
+.l_33{
+    height : 360px !important;
+}
+.l_34{
+    height : 240px !important;
+}
+.hl{
+    height:780px !important;
+}
+.l_33_c{
+    background-image: url("../img/hand2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.l_1{
+    width:55px;
+    height:55px;
+    color:white;
+    padding:4px;
+    background-color: #291d1d;
+    border-top:1px outset rgba(42, 42, 47, 0.8); 
+    border-right:8px outset rgba(42, 42, 47, 0.6); 
+    border-bottom:12px outset rgba(42, 42, 47, 0.6); 
+    border-left:6px outset rgba(42, 42, 47, 0.8); 
+    border-radius: 4px;
+}
+.l_11{
+    width:90px !important;
+    height:110px;
+    color:white;
+    padding:4px;
+    background-color: #291d1d;
+    border-top:1px outset rgba(42, 42, 47, 0.8); 
+    border-right:8px outset rgba(42, 42, 47, 0.6); 
+    border-bottom:12px outset rgba(42, 42, 47, 0.6); 
+    border-left:10px outset rgba(42, 42, 47, 0.8); 
+    border-radius: 4px;
+}
+.t1{
+    margin:10px;
+}
+.lll{
+    background-color: #231f1f;
+    border:5px solid rgb(32, 31, 31);
+    border-radius: 10px;
+}
+div.kkk > button > span {
+    margin-top:-5px;
+}
+button> span.second{
+    margin-top:-10px !important;
+}
+button:active{
+    background-color: rgb(44, 37, 37) !important;
+    box-shadow: 2px 3px  rgb(39, 39, 49) !important;
+    border-right:8px outset rgba(42, 42, 47, 0.1) !important; 
+    border-bottom:12px outset rgba(42, 42, 47, 0.1) !important; 
+}
