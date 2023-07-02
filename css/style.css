@@ -7,8 +7,12 @@ body{
     border:1px dashed #000;
 }
 .l_mysection{
-    transform: scale(0.9,0.9);
+    transform: scale(0.8,0.8);
     border:10px solid #0DCAF0 !important;
+}
+.FFF{
+    transform: scale(0.9);
+
 }
 .l_32{
     height : 180px !important;
@@ -17,16 +21,22 @@ body{
     height : 360px !important;
 }
 .l_34{
-    height : 240px !important;
+    height :280px !important;
 }
-.hl{
+/* .hl{
     height:780px !important;
-}
+} */
 .l_33_c{
     background-image: url("../img/hand2.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom;
+    position: relative;
+    max-width: 500px !important;
+    max-height: 400px !important;
+
+    margin:auto;
+    
 }
 .l_1{
     width:55px;
@@ -66,9 +76,164 @@ div.kkk > button > span {
 button> span.second{
     margin-top:-10px !important;
 }
-button:active{
+/* button:active{
     background-color: rgb(44, 37, 37) !important;
     box-shadow: 2px 3px  rgb(39, 39, 49) !important;
     border-right:8px outset rgba(42, 42, 47, 0.1) !important; 
     border-bottom:12px outset rgba(42, 42, 47, 0.1) !important; 
+} */
+
+.l_active:active{
+    transform: translate(2px,2px) !important;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.8) !important;
+    border-right:6px outset rgba(42, 42, 47, 0.1) !important; 
+    border-bottom:8px outset rgba(42, 42, 47, 0.1) !important; 
 }
+.l_circle{
+    width:30px;
+    height:30px;
+}
+
+                                                                             
+
+/* .sss{
+    top:0px;
+    left:60px;
+} */
+
+.iii{
+    position:relative !important;
+    top:0px !important;
+    right:0px !important;
+    bottom:0px !important;
+    left:0px !important;
+}
+/* .imm{
+    max-width: 800px !important;
+} */
+
+.jj{   
+    bottom:120px !important;
+    left:12px !important;
+}
+.kk{   
+    bottom:170px !important;
+    left:47px !important;
+}
+.ll{   
+    bottom:190px !important;
+    left:92px !important;
+}
+.mm{   
+    bottom:170px !important;
+    left:132px !important;
+}
+.nn{   
+    bottom:40px !important;
+    left:180px !important;
+}
+.oo{   
+    bottom:120px !important;
+    right:5px !important;
+}
+.pp{   
+    bottom:175px !important;
+    right:47px !important;
+}
+.qq{   
+    bottom:195px !important;
+    right:92px !important;
+}
+.rr{   
+    bottom:180px !important;
+    right:143px !important;
+}
+
+.ss{   
+    bottom:45px !important;
+    right:205px !important;
+}
+
+@media screen and (min-width:0px) and (max-width:770px){
+
+    .l_33_c{
+        background-image: url("../img/hand2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        position: relative;
+        max-width: 500px !important;
+        max-height: 400px !important;
+    
+        margin:auto;
+
+        transform-origin:scale(0.7) !important;
+        
+    }
+
+    .l_circle{
+        width:25px;
+        height:25px;
+    }
+
+    .jj{   
+        bottom:90px !important;
+        left:8px !important;
+    }
+    .kk{   
+        bottom:125px !important;
+        left:35px !important;
+    }
+    .ll{   
+        bottom:140px !important;
+        left:67px !important;
+    }
+    .mm{   
+        bottom:130px !important;
+        left:98px !important;
+    }
+    .nn{   
+        bottom:30px !important;
+        left:132px !important;
+    }
+    .oo{   
+        bottom:85px !important;
+        right:1px !important;
+    }
+    .pp{   
+        bottom:125px !important;
+        right:35px !important;
+    }
+    .qq{   
+        bottom:145px !important;
+        right:68px !important;
+    }
+    .rr{   
+        bottom:125px !important;
+        right:105px !important;
+    }
+    
+    .ss{   
+        bottom:35px !important;
+        right:155px !important;
+    }
+    
+}
+
+@media screen and  (min-width:770px){
+    .l_33_c{
+        background-image: url("../img/hand2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        position: relative;
+        max-width: 500px !important;
+        max-height: 400px !important;
+    
+        margin:auto;
+        
+    }
+    
+}
+
+
